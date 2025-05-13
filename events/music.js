@@ -210,7 +210,7 @@ module.exports = (client) => {
                     songTitle: track.info.title,
                     songArtist: track.info.author,
                     trackRequester: track.requester ? track.requester.username : "All In One",
-                    fontPath: path.join(__dirname, "../UI", "fonts", "AfacadFlux-Regular.ttf"),
+                    fontPath: path.join(__dirname, "../UI", "fonts", "Mali-Regular.ttf"),
                     backgroundColor: "#FF00FF",
                 });
         
